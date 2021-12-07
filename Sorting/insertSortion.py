@@ -1,4 +1,4 @@
-def insertsort(lst):
+def insertionsort(lst):
     for i in range(1,len(lst)):
         key=lst[i]
         j = i-1  
@@ -8,4 +8,4 @@ def insertsort(lst):
         lst[j + 1] = key
     return lst 
 lst=[10,20,3,4,2,1]
-print(insertsort(lst))
+print(insertionsort(lst))
